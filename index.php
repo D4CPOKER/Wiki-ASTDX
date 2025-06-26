@@ -1,2 +1,0 @@
-your turn
-Gay
