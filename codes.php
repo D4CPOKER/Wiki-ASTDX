@@ -1,23 +1,14 @@
-<?php // index.php ?>
+<?php // codes.php ?>
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>ASTDX Wiki</title>
+  <title>Códigos - ASTDX Wiki</title>
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  Arquivos
   <header>
-<nav>
-      <a href="index.php">Home</a>
-      <a href="units.php">Units</a>
-      <a href="tierlist.php">Tier List</a>
-      <a href="codes.php">Codes</a>
-    </nav>
-  </header>
-main
     <h1>ASTDX Wiki</h1>
     <nav>
       <a href="index.php">Home</a>
@@ -27,8 +18,14 @@ main
     </nav>
   </header>
   <main>
-    <h2>Bem-vindo à Wiki do ASTDX!</h2>
-    <p>O jogo ASTDX está cheio de unidades insanas, códigos secretos e muito conteúdo. Aqui você vai encontrar tudo!</p>
+    <h2>Códigos Ativos</h2>
+    <ul class="codes">
+      <li><code>LAUNCH2025</code> - 500 Gems</li>
+      <li><code>FREEUNIT</code> - 1 Unidade Aleatória</li>
+      <li><code>UPDATE1</code> - 300 Gems</li>
+    </ul>
+    <h3>Como usar?</h3>
+    <p>Vá até o menu do jogo &gt; Códigos &gt; Cole e confirme.</p>
   </main>
   <footer>
     <p>&copy; 2025 ASTDX Wiki - Feito por fãs</p>

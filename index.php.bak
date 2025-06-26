@@ -5,19 +5,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>ASTDX Wiki</title>
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  Arquivos
   <header>
-<nav>
-      <a href="index.php">Home</a>
-      <a href="units.php">Units</a>
-      <a href="tierlist.php">Tier List</a>
-      <a href="codes.php">Codes</a>
-    </nav>
-  </header>
-main
     <h1>ASTDX Wiki</h1>
     <nav>
       <a href="index.php">Home</a>
