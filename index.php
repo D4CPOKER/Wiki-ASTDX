@@ -8,7 +8,16 @@
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
+  Arquivos
   <header>
+<nav>
+      <a href="index.php">Home</a>
+      <a href="units.php">Units</a>
+      <a href="tierlist.php">Tier List</a>
+      <a href="codes.php">Codes</a>
+    </nav>
+  </header>
+main
     <h1>ASTDX Wiki</h1>
     <nav>
       <a href="index.php">Home</a>
