@@ -7,7 +7,7 @@ header {
   align-items: center;
   padding: 18px 30px;
   background: linear-gradient(90deg, #111322, #1c1f34);
-  
+   
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -58,4 +58,13 @@ header nav a:hover::after {
 }
 header img{
 	width: 20%;
+}
+
+/*FOOTER A PARTIR DAQUI------------------------------------------------------------------------------------------------------*/
+footer {
+  text-align: center;
+  color: #aaa;
+  margin-top: 3rem;
+  padding: 1rem;
+  background: linear-gradient(90deg, #111322, #1c1f34);
 }

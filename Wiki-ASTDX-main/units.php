@@ -28,8 +28,8 @@
       <!-- Você pode adicionar mais cards aqui -->
     </div>
   </main>
-  <footer>
-    <p>&copy; 2025 ASTDX Wiki - Feito por fãs</p>
-  </footer>
+  <?php
+	include "php/inc/footer.inc"
+ ?>
 </body>
 </html>

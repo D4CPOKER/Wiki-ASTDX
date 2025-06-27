@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Tier List - ASTDX Wiki</title>
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/tierlist.css" />
 </head>
 <body>
   <?php
@@ -71,7 +71,7 @@
 </div>
         </div>
       </div>
-	  <div class="custom-tier">
+	  <div class="custom-tier"><!--Inicio da tier-->
         <div class="custom-tier-label" style="background-color: #f28b82;">META Hill/Hybrid</div>
         <div class="custom-tier-content">
           <div class="character">
@@ -120,7 +120,7 @@
   </div>
 </div>
         </div>
-      </div>
+      </div><!--Fim da tier-->
 	  <div class="custom-tier">
         <div class="custom-tier-label" style="background-color: #A38068;">META Ground</div>
         <div class="custom-tier-content">
@@ -199,9 +199,9 @@
     </div>
   </main>
 
-  <footer>
-    <p>&copy; 2025 ASTDX Wiki - Feito por fãs</p>
-  </footer>
+  <?php
+	include "php/inc/footer.inc"
+ ?>
 
   <script>
     function showTab(tabId, event) {

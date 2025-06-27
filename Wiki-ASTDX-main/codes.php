@@ -21,8 +21,8 @@
     <h3>Como usar?</h3>
     <p>Vá até o menu do jogo &gt; Códigos &gt; Cole e confirme.</p>
   </main>
-  <footer>
-    <p>&copy; 2025 ASTDX Wiki - Feito por fãs</p>
-  </footer>
+  <?php
+	include "php/inc/footer.inc"
+ ?>
 </body>
 </html>

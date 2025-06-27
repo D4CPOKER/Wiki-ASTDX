@@ -16,8 +16,8 @@
     <h2>Bem-vindo à Wiki do ASTDX!</h2>
     <p>O jogo ASTDX está cheio de unidades insanas, códigos secretos e muito conteúdo. Aqui você vai encontrar tudo!</p>
   </main>
-  <footer>
-    <p>&copy; 2025 ASTDX Wiki - Feito por fãs</p>
-  </footer>
+  <?php
+	include "php/inc/footer.inc"
+ ?>
 </body>
 </html>
