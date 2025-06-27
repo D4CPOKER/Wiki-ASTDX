@@ -1,0 +1,23 @@
+<?php // index.php ?>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ASTDX Wiki</title>
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+ <?php
+	include "php/inc/header.inc"
+ ?>
+  <main>
+    <h2>Bem-vindo à Wiki do ASTDX!</h2>
+    <p>O jogo ASTDX está cheio de unidades insanas, códigos secretos e muito conteúdo. Aqui você vai encontrar tudo!</p>
+  </main>
+  <footer>
+    <p>&copy; 2025 ASTDX Wiki - Feito por fãs</p>
+  </footer>
+</body>
+</html>
