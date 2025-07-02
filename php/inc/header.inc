@@ -1,12 +1,35 @@
 <head>
-<link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/header.css">
+  <!--FONTEEEEEEE-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+	<!---->
 </head>
+
 <header>
-    <img src="img/logo.png">
-    <nav>
-      <a href="index.php"><strong>Home</strong></a>
-      <a href="units.php"><strong>Units</strong></a>
-      <a href="tierlist.php"><strong>Tier List</strong></a>
-      <a href="codes.php"><strong>Codes</strong></a>
-    </nav>
-  </header>
+  <button id="menu-toggle">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+  <a href="index.php">
+    <img src="img/logo.png" alt="ASTDX Wiki Logo">
+  </a>
+</header>
+
+<aside class="side-nav">
+  <a href="index.php">Home</a>
+  <a href="units.php">Units</a>
+  <a href="tierlist.php">Tier List</a>
+  <a href="codes.php">Codes</a>
+</aside>
+<script>
+  const menuToggle = document.getElementById('menu-toggle');
+  const sideNav = document.querySelector('.side-nav');
+
+  menuToggle.addEventListener('click', () => {
+    menuToggle.classList.toggle('active');
+    sideNav.classList.toggle('open');
+  });
+</script>

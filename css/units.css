@@ -1,0 +1,174 @@
+/* css/units.css */
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+main h2 {
+  margin-bottom: 2rem;
+}
+
+.hex-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+  justify-content: center;
+  max-width: 900px;
+}
+
+.hex-button {
+  width: 160px;
+  aspect-ratio: 2 / 1.6;
+  background: #333;
+  color: #fff;
+  font-weight: bold;
+  clip-path: polygon(
+    25% 0%,
+    75% 0%,
+    100% 50%,
+    75% 100%,
+    25% 100%,
+    0% 50%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: transform 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.hex-button:hover {
+  transform: scale(1.1);
+}
+
+.hex-button:nth-child(even) {
+  transform: translate(0%, 60%);
+}
+
+.hex-button:nth-child(even):hover {
+  transform: translate(0%, 60%) scale(1.1);
+}
+
+/* Estrelas SEMPRE visíveis */
+.hex-button span {
+  display: block;
+  text-align: center;
+  font-size: 1.2rem;
+  color: inherit;
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Overlay de imagem no hover */
+.hex-button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('img/Berserker_29_29.webp'); /* sua imagem */
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+  z-index: 1;
+}
+
+
+.hex-button:hover::after {
+  opacity: 1;
+}
+
+/* CORES */
+.hex-button.star1 {
+  background: linear-gradient(145deg, #757575, #424242);
+}
+
+.hex-button.star2 {
+  background: linear-gradient(145deg, #4caf50, #2e7d32);
+}
+
+.hex-button.star3 {
+  background: linear-gradient(145deg, #2196f3, #1565c0);
+}
+
+.hex-button.star4 {
+  background: linear-gradient(145deg, #9c27b0, #6a1b9a);
+}
+
+.hex-button.star5 {
+  background: linear-gradient(145deg, #ff9800, #ef6c00);
+}
+
+.hex-button.star6 {
+  background: linear-gradient(145deg, #e91e63, #ad1457);
+}
+
+.hex-button.star7 {
+  background: linear-gradient(145deg, #ffd600, #ffab00);
+  color: #000;
+}
+.unit-page {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+
+    .unit-grid {
+      display: flex;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 1rem;
+    }
+
+    .unit-card {
+      background-color: #1a1a1a;
+      border: 1px solid #333;
+      border-radius: 6px;
+      padding: 0.5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      transition: transform 0.2s ease;
+    }
+
+    .unit-card:hover {
+      transform: scale(1.05);
+    }
+
+    .unit-card img {
+      width: 7rem;
+      height: 7rem;
+    }
+
+    .unit-card h4 {
+      font-size: 0.9rem;
+      color: #ff9800;
+      margin: 0.2rem 0;
+    }
+
+    .unit-card .rarity {
+      font-size: 0.8rem;
+      color: #ff9800;
+      font-weight: bold;
+      margin-bottom: 0.3rem;
+    }
+
+    .unit-card .unit-stats {
+      font-size: 0.75rem;
+      color: #ccc;
+      line-height: 1.4;
+    }
+
+    .unit-card .unit-stats span {
+      color: #76ff03;
+      font-weight: bold;
+    }

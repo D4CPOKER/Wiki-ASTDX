@@ -18,14 +18,14 @@ main {
   
 }
 
-.tabs {
+#menus {
   display: flex;
   gap: 2rem;
   margin-bottom: 1.5rem;
   justify-content: center;
 }
 
-.tab-link {
+.menu {
   font-weight: 600;
   font-size: 1rem;
   color: #aaa;
@@ -34,12 +34,12 @@ main {
   padding-bottom: 4px;
 }
 
-.tab-link:hover,
-.tab-link.active {
+.menu:hover,
+.menu.active {
   color: #fff;
 }
 
-.tab-link.active::after {
+.menu.active::after {
   content: "";
   position: absolute;
   bottom: -4px;
@@ -50,7 +50,7 @@ main {
   border-radius: 2px;
 }
 
-.tier-container {
+.tierlist-container {
   display: none;
   flex-direction: column;
   gap: 0.5rem;
@@ -58,11 +58,11 @@ main {
   max-width: 1150px;
 }
 
-.tier-container.active {
+.tierlist-container.active {
   display: flex;
 }
 
-.custom-tier {
+.categoria {
   display: flex;
   background-color: #1a1a1a;
   border: 1px solid #333;
@@ -70,10 +70,10 @@ main {
   min-height: 120px;
 }
 
-.custom-tier-label {
+.categoria-label {
   background-color: #444;
-  color: #fff;
-  font-weight: bold;
+  color: #000000;
+  font-weight: 600;
   font-size: 0.9rem;
   padding: 0.5rem 0.5rem;
   min-width: 130px;
@@ -87,7 +87,7 @@ main {
   border: 1px solid #333;
 }
 
-.custom-tier-content {
+.categoria-content {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -99,7 +99,7 @@ main {
   border-radius:8px;
 }
 
-.custom-tier-content img {
+.categoria-content img {
   width: 100px;
   height: 100px;
   object-fit: cover;
@@ -108,7 +108,7 @@ main {
   transition: all 0.2s ease-in-out;
 }
 
-.custom-tier-content img:hover {
+.categoria-content img:hover {
   transform: scale(1.07);
   z-index: 2;
 }
@@ -127,10 +127,10 @@ main {
   padding: 12px;
   border-radius: 10px;
   position: absolute;
-  bottom: 110%;
+  bottom: auto;
+  top:110%;
   left: 50%;
-  transform: translatex(-50%);
-  transform: translateY(140%);
+  transform: translate(-50%, 0);
   z-index: 999;
   transition: opacity 0.3s ease;
   border: 2px solid gold;
@@ -140,8 +140,8 @@ main {
 }
 
 .character:hover .detailed-tooltip {
-  visibility: visible;
-  opacity: 1;
+  visibility: visible !important;
+  opacity: 1 !important;
 }
 
 .detailed-tooltip h3 {
@@ -150,16 +150,30 @@ main {
   color: #fdd835;
 }
 
-.detailed-tooltip .rarity.mythical {
+.detailed-tooltip .raridade.mythical {
   color: #ff66cc;
   font-weight: bold;
 }
 
-.detailed-tooltip .type.magic {
+.detailed-tooltip .raridade.secret {
+  color: #4B4B4B;
+  font-weight: bold;
+}
+
+.detailed-tooltip .raridade.lendario {
+  color:#FFD700;
+  font-weight: bold;
+}
+
+.detailed-tooltip .tipo-ataque.magico {
   color: #4fc3f7;
 }
 
-.detailed-tooltip .type.dark {
+.detailed-tooltip .tipo.wind {
+  color:#85A5A8;
+}
+
+.detailed-tooltip .tipo.dark {
   color: #b39ddb;
 }
 
@@ -171,6 +185,26 @@ main {
   border-radius: 6px;
   margin: 5px 0;
   text-align: center;
+}
+
+.detailed-tooltip .starter-tag {
+  background: linear-gradient(90deg, #5E7D80, #D1D8D9);
+  color: black;
+  font-weight: bold;
+  padding: 4px 8px;
+  border-radius: 6px;
+  margin: 5px 0;
+  text-align: center;
+}
+
+.detailed-tooltip .raid-tag {
+    background: linear-gradient(90deg, #360952, #8C2EC7);
+    color: black;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 6px;
+    margin: 5px 0;
+    text-align: center;
 }
 
 .detailed-tooltip .desc {
@@ -193,7 +227,7 @@ main {
   color: #ffca28;
 }
 
-.detailed-tooltip .recs {
+.detailed-tooltip .adicionais {
   margin-top: 5px;
   font-size: 12px;
 }
