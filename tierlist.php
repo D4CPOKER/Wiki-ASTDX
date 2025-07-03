@@ -19,13 +19,15 @@
 
 <!-- === MAIN === -->
 <body>
+
   <!-- === HEADER === -->
   <?php
   include "php/inc/header.inc"
-  ?>
+  ?> 
 
 <!-- === CONTEÚDO PRINCIPAL DA PÁGINA === --> 
   <main>
+  
     <h2>Tier List</h2>
 
 <!-- === MENUS === -->
@@ -402,6 +404,7 @@
         </div>
       </div>
   </main>
+ 
 
 <!-- === RODAPÉ === -->
   <?php

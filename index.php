@@ -13,8 +13,10 @@
 	<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
 	<!---->
 </head>
+
 <body>
   <?php include __DIR__ . '/php/inc/header.inc'; ?>
+  <section class="codes fade-in-delay">
 
   <main class="home">
     <section class="hero">
@@ -29,6 +31,7 @@
     </section>
 
   </main>
+  </section>
 
   <?php include __DIR__ . '/php/inc/footer.inc'; ?>
 

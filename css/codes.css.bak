@@ -1,3 +1,10 @@
+/* Fonte padrão */
+body {
+  font-family: 'Bangers', cursive;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
 
 /* Container principal */
 .container {
