@@ -1,0 +1,136 @@
+/* Fonte padrão */
+body {
+  font-family: 'Bangers', cursive;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+/* Container principal */
+.container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/* Seções */
+.overview, .codes {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  border-radius: 16px;
+  margin-bottom: 40px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.3);
+}
+
+/* Títulos */
+.overview h2,
+.codes h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #ffcc00;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+/* Texto geral */
+.overview p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* Tabela de códigos */
+.codes-table {
+  width: 100%;
+  background-color: #1a1a2e;
+  border-radius: 12px;
+  overflow: hidden;
+  border-collapse: collapse;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  margin-bottom: 30px;
+}
+
+.codes-table th,
+.codes-table td {
+  padding: 16px;
+  border-bottom: 1px solid #333;
+  text-align: center;
+  font-family: 'Bangers', cursive;
+  color: #fff;
+}
+
+.codes-table th {
+  background-color: #2b2d42;
+  color: #ffcc00;
+  font-size: 1.3rem;
+}
+
+.codes-table td {
+  font-size: 1.1rem;
+}
+
+.codes-table tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+  transition: background 0.2s;
+}
+
+/* Botões de copiar */
+.copy-btn {
+  background-color: #ffc107;
+  color: black;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: 'Bangers', cursive;
+  transition: all 0.3s ease;
+}
+
+.copy-btn:hover {
+  background-color: #f5a623;
+  transform: scale(1.05);
+}
+
+.copy-btn.copied {
+  background-color: #28a745;
+  color: white;
+  box-shadow: 0 0 8px #28a745;
+}
+
+/* Expirados */
+.expired-info {
+  color: #ccc;
+  font-size: 1rem;
+  margin-bottom: 12px;
+  font-style: italic;
+  text-align: center;
+}
+
+.expired-status {
+  color: #ff4444;
+  font-weight: bold;
+}
+
+/* Animações simples */
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1s ease-in forwards;
+}
+
+.fade-in-delay {
+  opacity: 0;
+  animation: fadeIn 1.4s ease-in forwards;
+  width: 100%;
+  background-color: #1a1a2e;
+  border-radius: 12px;
+  overflow: hidden;
+  border-collapse: collapse;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  margin-bottom: 30px;
+
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
