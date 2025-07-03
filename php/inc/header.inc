@@ -16,7 +16,16 @@
   <a href="index.php">
     <img src="img/logo.png" alt="ASTDX Wiki Logo">
   </a>
+ <form id="search-form" class="search-form" autocomplete="off">
+  <input type="text" id="search-input" name="q" placeholder="Pesquisar..." />
+  <button type="submit">🔍</button>
+</form>
+<div id="suggestions"></div>
+
+
+
 </header>
+
 
 <aside class="side-nav">
   <a href="index.php">Home</a>
@@ -33,3 +42,5 @@
     sideNav.classList.toggle('open');
   });
 </script>
+<?php include "php/inc/search.inc"?>
+

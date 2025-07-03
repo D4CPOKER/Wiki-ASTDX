@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>ASTDX Wiki</title>
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/home.css" />
   <!--FONTEEEEEEE-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,7 +19,7 @@
   <main class="home">
     <section class="hero">
       <h1>Wiki All Star Tower X</h1>
-      <p>Descubra estratégias, unidades e segredos do ASTDX!</p>
+      <p>Data de lançamento!</p>
       <div id="countdown">
         <div><span id="days">00</span><small>Dias</small></div>
         <div><span id="hours">00</span><small>Horas</small></div>
