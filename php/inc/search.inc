@@ -3,7 +3,8 @@
     { name: 'Home', url: 'index.php' },
     { name: 'Units', url: 'units.php' },
     { name: 'Tier List', url: 'tierlist.php' },
-    { name: 'Codes', url: 'codes.php' }
+    { name: 'Codes', url: 'codes.php' },
+    { name: 'Gojo', url: 'gojo.php' },
   ];
 
   const input = document.getElementById('search-input');
@@ -62,4 +63,30 @@
   }
 });
 
+</script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const searchForm = document.querySelector(".search-form");
+    const searchInput = searchForm.querySelector("input[type='text']");
+    const searchButton = searchForm.querySelector("button");
+
+    // Clicar na lupa em telas pequenas ativa o campo
+    searchButton.addEventListener("click", function (e) {
+      if (window.innerWidth <= 768 && !searchForm.classList.contains("expanded")) {
+        e.preventDefault(); // impede o envio do formulário
+        searchForm.classList.add("expanded");
+        searchInput.focus();
+      }
+    });
+
+    // Fecha o campo se clicar fora
+    document.addEventListener("click", function (e) {
+      if (
+        window.innerWidth <= 768 &&
+        !searchForm.contains(e.target)
+      ) {
+        searchForm.classList.remove("expanded");
+      }
+    });
+  });
 </script>
