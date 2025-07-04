@@ -18,10 +18,6 @@ main {
   
 }
 
-#title {
-    font-size:1.8rem;
-}
-
 #menus {
   display: flex;
   gap: 2rem;
@@ -30,7 +26,8 @@ main {
 }
 
 .menu {
-  font-size: 1.5rem;
+  font-weight: 600;
+  font-size: 1rem;
   color: #aaa;
   cursor: pointer;
   position: relative;
@@ -76,7 +73,8 @@ main {
 .categoria-label {
   background-color: #444;
   color: #000000;
-  font-size: 1.2rem;
+  font-weight: 600;
+  font-size: 0.9rem;
   padding: 0.5rem 0.5rem;
   min-width: 130px;
   min-height: 80px;
@@ -137,7 +135,7 @@ main {
   transition: opacity 0.3s ease;
   border: 2px solid gold;
   box-shadow: 0 0 12px rgba(255, 215, 0, 0.5);
-  font-size: 0.8rem;
+  font-size: 13px;
   text-align: left;
 }
 
@@ -148,97 +146,88 @@ main {
 
 .detailed-tooltip h3 {
   margin: 0 0 5px 0;
-  font-size: 1.2rem;
+  font-size: 15px;
   color: #fdd835;
 }
 
 .detailed-tooltip .raridade.mythical {
   color: #ff66cc;
-  font-size: 0.9rem;
+  font-weight: bold;
 }
 
 .detailed-tooltip .raridade.secret {
   color: #4B4B4B;
-  font-size: 0.9rem;
+  font-weight: bold;
 }
 
 .detailed-tooltip .raridade.lendario {
   color:#FFD700;
-  font-size: 0.9rem;
+  font-weight: bold;
 }
 
 .detailed-tooltip .tipo-ataque.magico {
   color: #4fc3f7;
-  font-size: 0.9rem;
 }
 
 .detailed-tooltip .tipo.wind {
   color:#85A5A8;
-  font-size: 0.9rem;
 }
 
 .detailed-tooltip .tipo.dark {
   color: #b39ddb;
-  font-size: 0.9rem;
 }
 
 .detailed-tooltip .meta-tag {
   background: linear-gradient(90deg, #ffecb3, #ffe082);
-  color: #000;
+  color: black;
+  font-weight: bold;
   padding: 4px 8px;
   border-radius: 6px;
   margin: 5px 0;
   text-align: center;
-  font-size:1rem;
 }
 
 .detailed-tooltip .starter-tag {
   background: linear-gradient(90deg, #5E7D80, #D1D8D9);
   color: black;
+  font-weight: bold;
   padding: 4px 8px;
   border-radius: 6px;
   margin: 5px 0;
   text-align: center;
-  font-size:1rem;
 }
 
 .detailed-tooltip .raid-tag {
     background: linear-gradient(90deg, #360952, #8C2EC7);
     color: black;
+    font-weight: bold;
     padding: 4px 8px;
     border-radius: 6px;
     margin: 5px 0;
     text-align: center;
-    font-size:1rem;
 }
 
 .detailed-tooltip .desc {
   margin: 6px 0;
-  font-size: 0.9rem;
+  font-size: 12.5px;
   color: #ccc;
 }
 
 .detailed-tooltip .stats {
   margin: 6px 0;
-  font-size: 0.9rem;
-  font-family: 'Segoe UI', Tahoma, ubuntu;
-  font-weight:600;
+  font-size: 12px;
 }
 
 .detailed-tooltip .highlight {
   color: #76ff03;
-  font-size: 0.9rem;
+  font-weight: bold;
 }
 
 .detailed-tooltip .cost {
   color: #ffca28;
-  font-size: 0.9rem;
 }
 
 .detailed-tooltip .adicionais {
   margin-top: 5px;
-  font-size: 0.8rem;
-  font-family: 'Segoe UI', Tahoma, roboto;
-  font-weight:600;
-  
+  font-size: 12px;
 }

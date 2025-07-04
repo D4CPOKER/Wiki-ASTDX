@@ -16,9 +16,9 @@
 
 <body>
   <?php include __DIR__ . '/php/inc/header.inc'; ?>
-  <section class="codes fade-in-delay">
-
+<section class="codes fade-in-delay">
   <main class="home">
+  
     <section class="hero">
       <h1>Wiki All Star Tower X</h1>
       <p>Data de lançamento!</p>
@@ -28,7 +28,8 @@
         <div><span id="minutes">00</span><small>Minutos</small></div>
         <div><span id="seconds">00</span><small>Segundos</small></div>
       </div>
-    </section>
+
+	</section>
 
   </main>
   </section>

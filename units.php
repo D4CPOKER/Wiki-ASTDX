@@ -10,7 +10,9 @@
 </head>
 <body>
 <?php include "php/inc/header.inc" ?>
+<section class="codes fade-in-delay">
 <main>
+
   <h2>RARIDADES DAS UNITS</h2>
 
   <div class="hex-grid">
@@ -37,6 +39,7 @@
 
 
 </main>
+</section>
 <?php include "php/inc/footer.inc" ?>
 </body>
 </html>

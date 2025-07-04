@@ -43,4 +43,23 @@ main {
 }
 .fade-in {
   opacity: 0;
-  animation: fadeIn 1s ease-in forwards;
+  animation: fadeIn 0.25s ease-in forwards;
+}
+
+.fade-in-delay {
+  opacity: 0;
+  animation: fadeIn 0.25s ease-in forwards;
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
