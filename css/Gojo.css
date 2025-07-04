@@ -1,0 +1,166 @@
+.gojo-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 30px;
+  color: white;
+
+   
+
+
+
+
+
+
+}
+
+.gojo-left {
+  flex: 2;
+  min-width: 300px;
+}
+
+.gojo-right {
+  flex: 1;
+  min-width: 220px;
+}
+
+.gojo-title {
+  font-size: 2.8rem;
+  color: #56c4ff;
+}
+
+.gojo-title span {
+  color: #ffe066;
+}
+
+.gojo-desc {
+  font-size: 1.1rem;
+  margin: 10px 0 20px;
+}
+
+.rare {
+  color: #ffd966;
+  font-weight: bold;
+}
+
+.gojo-block {
+  background: rgba(0,0,0,0.2);
+  padding: 20px;
+  border-radius: 16px;
+  margin-bottom: 25px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.3);
+}
+
+.gojo-block h2 {
+  color: #ffdd57;
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+.gojo-block ul {
+  list-style: disc;
+  padding-left: 20px;
+  font-size: 1rem;
+}
+
+.gojo-tabs {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #ffe066;
+}
+
+.tab-btn {
+  background: none;
+  color: #ccc;
+  border: none;
+  font-size: 1rem;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-bottom: 3px solid transparent;
+}
+
+.tab-btn.active {
+  color: white;
+  border-color: #ffe066;
+}
+
+.gojo-tab-content {
+  display: none;
+  background: rgba(255,255,255,0.05);
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+  margin-bottom: 20px;
+}
+
+.gojo-tab-content.active {
+  display: block;
+}
+
+.gojo-tab-content h3 {
+  color: #ff9e9e;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.gojo-tab-content ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.gojo-card {
+  background: rgba(0,0,0,0.2);
+  padding: 20px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 0 8px rgba(0,0,0,0.3);
+}
+
+.gojo-card img {
+  width: 100%;
+  max-width: 180px;
+  margin: 0 auto 10px;
+  border-radius: 10px;
+  display: block;
+}
+
+.gojo-card p {
+  font-style: italic;
+  font-size: 0.95rem;
+  color: #ccc;
+}
+.gojo-table {
+  margin-top: 20px;
+  background: rgba(255,255,255,0.03);
+  border-radius: 12px;
+  padding: 15px;
+  font-size: 0.9rem;
+  color: #ddd;
+}
+
+.gojo-table .row {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.gojo-table .row span {
+  font-weight: bold;
+  color: #fff;
+  min-width: 120px;
+}
+
+.gojo-table .divider {
+  font-weight: bold;
+  margin: 10px 0 6px;
+  padding-top: 8px;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  color: #ffe066;
+  font-size: 1rem;
+}
+.gojo-table .row:last-child {
+  border-bottom: none;
+}
