@@ -111,4 +111,3 @@
   }
 </script>
 </body>
-<footer></footer>
