@@ -5,14 +5,15 @@
 <!-- === HEAD === -->
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Tier List - ASTDX Wiki</title>
-  <link rel="stylesheet" href="css/tierlist.css" />
-  <link rel="stylesheet" href="css/style.css" />
-  <!--FONTEEEEEEE-->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tier List - ASTDX Wiki</title>
+    <link rel="stylesheet" href="css/tierlist.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/footer.css"/>
+    <!--FONTEEEEEEE-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
 	<!---->
 </head>
@@ -28,7 +29,7 @@
 <!-- === CONTEÚDO PRINCIPAL DA PÁGINA === --> 
   <main>
   
-    <h2>Tier List</h2>
+    <h2 id="title">Tier List</h2>
 
 <!-- === MENUS === -->
     <div id="menus">
@@ -404,12 +405,7 @@
         </div>
       </div>
   </main>
- 
 
-<!-- === RODAPÉ === -->
-  <?php
-  include "php/inc/footer.inc"
-  ?>
 
 <!-- === JAVA SCRIPT PARA TRANSIÇÃO DE MODOS/MENUS === -->
   <script>
@@ -422,5 +418,10 @@
   </script>
   
 </body>
+
+<!-- === RODAPÉ === -->
+  <?php
+  include "php/inc/footer.inc"
+  ?>
 
 </html>
